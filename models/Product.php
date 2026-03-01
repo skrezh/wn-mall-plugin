@@ -604,7 +604,9 @@ class Product extends Model
             if (isset($fields->variants)) {
                 $fields->variants->path = 'variants_unavailable';
             }
-            $fields->group_by_property_id->hidden = true;
+            if (isset($fields->group_by_property_id)) {
+                $fields->group_by_property_id->hidden = true;
+            }
         }
     }
 
