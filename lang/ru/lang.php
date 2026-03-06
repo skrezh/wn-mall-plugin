@@ -346,6 +346,7 @@ return [
         'richeditor' => 'Rich-редактор',
         'dropdown' => 'Выпадающий список',
         'checkbox' => 'Флажок',
+        'checkboxlist' => 'Список флажков',
         'color' => 'Цвет',
         'image' => 'Изображение',
         'switch' => 'Переключатель',
